@@ -97,8 +97,8 @@ textarea {
 }
 
 .logo {
-  height: 128px;
-  width: 128px;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
 }
 
@@ -143,7 +143,7 @@ li a {
   background-color: #87a0c9;
   color: white;
   transition: all .25s cubic-bezier(.08,.59,.29,.99);
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 li a:hover {
@@ -152,7 +152,7 @@ li a:hover {
 }
 
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
 }
 
  /* ==========================================================================
