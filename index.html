@@ -19,6 +19,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
 </head>
 
 <body>
@@ -26,35 +27,77 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <div class="grid fill-height">
-    <div class="row row-space-around row-middle row-center fill-height">
-      <div class="col-large-3 col-medium-5 col-small-12">
-        <img src="img/hi.png" />
+  <div class="container">
+    <div class="row center-xs middle-xs between-xs">
+      <div class="col-xs">
+        <div class="box">
+          <img src="img/hi.png" />
+        </div>
       </div>
-      <div class="col-large-8 col-medium-6 col-small-12">
-        <div class="grid">
-          <div class="row">
-            <div class="col-12">
-              <h1>Ciara's Classroom</h1>
-            </div>
-            <div class="grid col-12">
-              <div class="row">
-                <div class="col-4"><a href="https://instagram.com/ciarasclassroom">Instagram</a></div>
-                <div class="col-4"><a href="https://pinterest.com/ciarasclassroom">Pinterest</a></div>
-                <div class="col-4"><a href="https://mash.ie/store/ciaralynch101">Mash</a></div>
-              </div>
-            </div>
-          </div>
+      <div class="col-xs">
+        <div class="box">
+          <h1>Welcome to Ciara's Classroom</h1>
         </div>
       </div>
     </div>
-  </div>
 
-  <script>
+    <div class="row center-xs middle-xs around-xs">
+      <div class="col-xs">
+        <div class="box">
+          <ul>
+            <li>
+              <a href="https://instagram.com/ciarasclassroom">
+                <div class="row middle-xs">
+                  <div class="col-xs-4">
+                    <div class="box">
+                      <img class="logo" src="instagram.jpg" />
+                    </div>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="box">Instagram</div>
+                  </div>
+                </div>
+              </a>
+             </li>
+            <li>
+              <a href="https://pinterest.com/ciarasclassroom">
+                <div class="row middle-xs">
+                  <div class="col-xs-4">
+                    <div class="box">
+                      <img class="logo" src="pinterest.png" />
+                    </div>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="box">Pinterest</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://mash.ie/store/ciaralynch101/">
+                <div class="row middle-xs">
+                  <div class="col-xs-4">
+                    <div class="box">
+                      <img class="logo" src="mash.ie.jpg" />
+                    </div>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="box">Mash</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+      </div>
+      </div>
+    </div>
+
+  </div>
+<!--   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-135442754-1', 'auto'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
 </body>
 
 </html>
